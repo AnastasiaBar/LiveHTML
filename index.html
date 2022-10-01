@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="Description of the page less than 150 characters">
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru-RU" type="text/javascript"></script>
+    <title>Test</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+
+            <div class="top_menu">
+
+                <div class="menu__logo">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="container_menu">
+
+                    <div class="navigate">
+
+                        <div class="burger_menu">
+                            <span class="res-menu" onclick="openNav()">&#9776;</span>
+
+                            <div class="block_logo">
+                                <div class="logo">
+                                    <img src="img/logo.png" alt="">
+                                </div>
+                            </div>
+
+                            <div id="mySidenav" class="sidenav">
+                                <a  class="closebtn" onclick="closeNav()">&times;</a>
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">Каталог инструментов</a></li>
+                                        <li><a href="#">Все для сада</a></li>
+                                        <li><a href="#">Ручной интрумент</a></li>
+                                        <li><a href="#">Электрика</a></li>
+                                        <li><a href="#">Доставка</a></li>
+                                        <li><a href="#">Доставка</a></li>
+                                        <li><a href="#">О нас</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+
+                        <div class="nav_menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Каталог инструментов</a></li>
+                                    <li><a href="#">Все для сада</a></li>
+                                    <li><a href="#">Ручной интрумент</a></li>
+                                    <li><a href="#">Электрика</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">О нас</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+
+                        <div class="authorization">
+                            <a href="#">Вход</a>
+                            <a href="#">Регистрация</a>
+                        </div>
+
+                    </div>
+
+                    <div class="store_information">
+
+                        <div class="rectangle"></div>
+
+                        <div class="inf__field">
+
+                            <a href="#" class="field">
+                                <div class="icon">
+                                    <i class="icon-cart"></i>
+                                </div>
+
+                                <h4>3 шт. / 17 250 р.</h4>
+                            </a>
+
+                            <a href="#" class="field">
+                                <div class="icon">
+                                    <i class="icon-star"></i>
+                                </div>
+
+                                <h4>Избранное <span>(7)</span></h4>
+                            </a>
+
+                            <a href="#" class="field">
+                                <div class="icon">
+                                    <img src="img/icon/balance.svg" alt="">
+                                </div>
+
+                                <h4>К сравнению <span>(5)</span></h4>
+                            </a>
+
+                        </div>
+
+                        <div class="inf__photo">
+                            
+                            <div class="photo">
+                                <img src="img/photo1.png" alt="">
+                            </div>
+
+                            <div class="photo">
+                                <img src="img/photo2.png" alt="">
+                            </div>
+
+                            <div class="photo">
+                                <img src="img/photo3.png" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="inf__work">
+
+                            <div class="time">
+
+                                <h4 class="text__time">Время работы:</h4>
+
+                                <h4>10:00 — 19:00</h4>
+                            </div>
+
+                            <div class="phone">
+                                <h1>8 495 721-25-25</h1>
+                            </div>
+
+                            <div class="location">
+                                <h4>Москва</h4>
+
+                                <h4 class="decor">сменить</h4>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu">
+
+                <div class="block_icon">
+                    <div class="icon">
+                        <i class="icon-search"></i>
+                    </div>
+                </div>
+
+                <form action="" class="search">
+                    <input type="text" placeholder="Поиск товара">
+
+                    <button class="btn">
+                        <div class="icon">
+                            <i class="icon-search"></i>
+                        </div>
+                    </button>
+                </form>
+
+
+                <div class="block_nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#" class="active">Перфораторы</a></li>
+                            <li><a href="#">Дрели</a></li>
+                            <li><a href="#">Шлифмашины</a></li>
+                            <li><a href="#">Пистолеты</a></li>
+                            <li><a href="#">Электропилы</a></li>
+                            <li><a href="#">Наборы инструментов</a></li>
+                            <li><a href="#">Акксесуары</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="block_sale">
+                    <a href="#">Распродажа</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<main>
+
+
+</main>
+
+<footer class="container-footer">
+    <div class="container">
+
+    </div>
+</footer>
+<script src="script/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js'></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+<script src="script/slick.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
